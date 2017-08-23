@@ -1,3 +1,19 @@
 <h1>About me</h1>
 
 <p>I am always so serious.</p>
+
+<h2>Skills</h2>
+
+<ul>
+  <% @skills.each do |skill| %>
+  <li> <%= skill %> </li>
+  <% end %>
+</ul>
+
+<h2>Interests</h2>
+
+<ul>
+  <% @interests.each do |interest| %>
+  <li><%= interest %></li>
+  <% end %>
+</ul>
